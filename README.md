@@ -1,4 +1,4 @@
-# edgar-analytics-insight
+# edgar-analytics-insightdatachallenge
 Used Python to solve this challenge. Here is the summary of my approach to the challenge:
 1. Read the records from the input log.csv by retrieved the corresponding fields based on their header names.
 2. Implemented a data dictionary with ip as a key and an object with attributes as reuest time, last request time, count of web page requests and inactivity count. In this way each ip has an instance of its own and corresponding variables.
